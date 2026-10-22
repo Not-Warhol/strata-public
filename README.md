@@ -16,6 +16,7 @@ All contracts are verified, so the source can also be read on the explorer.
 | Drop 002, Persona | Every transaction a wallet makes | `0x52B89721B8b55e8edB5751BEaFfde523B1F5647D` |
 | HYPOGEUM | A year of Pharaoh V3 activity (its first birthday) | `0x73ad0126860831a4BD02F2c8380c9B3B2F0fe6F6` |
 | Receipt | Supporters of the project | `0x841c836Cd1E86560Aa5326cB593308aC81C3769D` |
+| Riot | Staking reward: one level per makooor credit reinvested, up to ten | `0x489c2cb198723ec498f62b30fc79930037909766` |
 
 ## How the art is made
 
@@ -33,7 +34,7 @@ A wallet's own piece is not shown before its mint is final, so nobody can shop f
 
 ## Contracts
 
-`contracts/contracts/`: `StrataDrop` (open edition inside a mint window, signed per-wallet allowance, ERC-2981 royalties, `contractURI`), `PersonaDrop`, `StrataReceipt`, `StrataReseed`, and the Market set (`StrataAuction`, `StrataZone`, `StrataNames`, `StrataTransfer`) with staking and rewards.
+`contracts/contracts/`: `StrataDrop` (open edition inside a mint window, signed per-wallet allowance, ERC-2981 royalties, `contractURI`), `PersonaDrop`, `StrataReceipt`, `StrataRiot`, `StrataReseed`, and the Market set (`StrataAuction`, `StrataZone`, `StrataNames`, `StrataTransfer`) with staking and rewards.
 
 ```
 cd contracts
