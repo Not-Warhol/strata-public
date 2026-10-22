@@ -1,0 +1,17 @@
+{
+  "name": "avax-strata-contracts",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:fuji": "hardhat run scripts/deploy.cjs --network fuji",
+    "deploy:avalanche": "hardhat run scripts/deploy.cjs --network avalanche",
+    "verify:avalanche": "hardhat verify --network avalanche"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "5.1.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.17"
+  }
+}
